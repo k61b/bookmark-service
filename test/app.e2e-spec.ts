@@ -17,8 +17,8 @@ describe('App e2e test', () => {
     );
     await app.init();
   });
+  it.todo('shold test');
   afterAll(async () => {
     app.close();
   });
-  it.todo('shold test');
 });
